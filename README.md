@@ -12,7 +12,7 @@
 >
 > 调用函数：get_items_by_keywords(关键词, 页数)
 >
-> 输出：result文件夹下的csv文件, 名字为: 关键词_result.csv
+> 输出：result文件夹下的csv文件, 名字为: 关键词_result.csv
 
 ## get_review_cloud.py
 
