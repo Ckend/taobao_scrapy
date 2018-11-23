@@ -24,7 +24,7 @@ def get_items_by_keywords(searchWords, page):
     for i in range(1,page):
         result = get_items(searchWords ,i)
         try:
-            write_csv(result, str(searchWords)+"_result.csv")
+            write_csv(result,"./result/"+str(searchWords)+"_result.csv")
         except INdexError:
             # 关键词产品已抓取完
             print("该关键词产品已全部抓取完毕")

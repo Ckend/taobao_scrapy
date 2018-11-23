@@ -28,7 +28,7 @@ def get_review_cloud(itemID):
 
 def get_cloud_and_reviews(itemId, userId, page):
     cloud = get_review_cloud(itemId)
-    write_csv(cloud,'cloud_'+itemId+'.csv')
+    write_csv(cloud,"./result/"+'cloud_'+itemId+'.csv')
 
 itemId = "569753598854"
 userId = "2873324802"
